@@ -1,0 +1,15 @@
+Timing Report
+--------------------------------------------------------------------------------
+Total_time: 373009580
+
+Compute_period: 
+Compute_time: 340 Compute_utilization: 9.11505e-05%
+
+Communicate_period: 
+Communicate_time: 490 Communicate_utilization: 0.000131364%
+
+merge_period: 
+Overlap_time: 830 overlap_utilization: 0.000222514%
+Sum_time: 0 Sum_utilization: 0%
+
+Alloc_rate: 

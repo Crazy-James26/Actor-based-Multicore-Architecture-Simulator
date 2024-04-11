@@ -1,0 +1,27 @@
+Timing Report
+--------------------------------------------------------------------------------
+Total_time: 11978000
+
+Compute_period: 
+(6111840, 6112180)
+Compute_time: 340 Compute_utilization: 0.00283854%
+
+Communicate_period: 
+(390, 550)
+(6111670, 6111830)
+(6112240, 6112410)
+Communicate_time: 490 Communicate_utilization: 0.00409083%
+
+merge_period: 
+(390, 550)
+(6111670, 6111830)
+(6111840, 6112180)
+(6112240, 6112410)
+Overlap_time: 0 overlap_utilization: 0%
+Sum_time: 830 Sum_utilization: 0.00692937%
+
+Alloc_rate: 
+(340, 0.78125%)
+(390, 2.34375%)
+(6112190, 0.78125%)
+(6112420, 0%)

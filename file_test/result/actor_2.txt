@@ -1,0 +1,37 @@
+Time 210 ns: icache initialization:
+ins0         : 0f1f08000000000000000000000000000000000
+ins1         : 0f2f06000000000000000000000000000000000
+ins2         : 0f3f80004000200020002000000000000000000
+ins3         : 0f1f08000000058000000460000001400000000
+ins4         : 0f2f06000000020000000000000000000000000
+ins5         : 0f3f400020002000600020004000200010000f1
+Time 290 ns: starts running!
+Time 310 ns: store_addr: mem_rt000000000 no consumer! 
+Time 320 ns: producer_table: {actor080000000 }
+Time 340 ns: mem_alloc_rate: 1.5625%
+Time 350 ns: rte0: new rte! in_alloc_mem_addr: {mem000000000(size: 000000000) } out_alloc_mem_addr: mem000000000(size: 000000020) ins_type: 0f8
+Time 360 ns: rte0: receives req from producer080000000's req! ins_type: 0f8
+Time 360 ns: store_addr: mem_rt000000001 consumer_table: {actor080000004 actor080000005 } out_mode: 0f0
+Time 370 ns: rte0: asks for producer080000000's req! ins_type: 0f8
+Time 370 ns: producer_table: {actor080000000 mem_rt000000000 }
+Time 390 ns: rte0: producer080000000 is sending data! ins_type: 0f8
+Time 390 ns: mem_alloc_rate: 4.6875%
+Time 400 ns: rte1: new rte! in_alloc_mem_addr: {mem000000400(size: 000000090) mem000000000(size: 000000020) } out_alloc_mem_addr: mem000000800(size: 000000080) ins_type: 0f4
+Time 400 ns: finishes loading instructions!
+Time 410 ns: rte0: rte is erased! ins_type:0f8
+Time 410 ns: rte0: receives req from producer080000000's req! ins_type: 0f4
+Time 420 ns: rte0: asks for producer080000000's req! ins_type: 0f4
+Time 440 ns: rte0: producer080000000 is sending data! ins_type: 0f4
+Time 500 ns: ALU starts compuatation! ins_type: 0f4
+Time 500 ns: current_time:500 ns
+Time 610 ns: ALU completes computation! ins_type: 0f4
+Time 610 ns: current_time:610 ns
+Time 610 ns: in_mem is released: {mem000000400(actor080000000) } ins_type: 0f4
+Time 620 ns: mem_alloc_rate: 3.125%
+Time 660 ns: consumer actor080000004 ack! ins_type: 0f4
+Time 660 ns: consumer actor080000005 ack! ins_type: 0f4
+Time 670 ns: is sending data to {actor080000004 actor080000005 } ins_type: 0f4
+SU_read_pt0: data[0         : 31        ]: 8         36        64        36        112       222       262       94        112       212       252       92        44        76        88        24        18        86        154       96        282       622       742       324       332       712       832       332       154       326       378       144       
+SU_read_pt0: data[32        : 63        ]: 8         36        64        36        112       222       262       94        112       212       252       92        44        76        88        24        18        86        154       96        282       622       742       324       332       712       832       332       154       326       378       144       
+SU_read_pt0: data[64        : 95        ]: 8         36        64        36        112       222       262       94        112       212       252       92        44        76        88        24        18        86        154       96        282       622       742       324       332       712       832       332       154       326       378       144       
+SU_read_pt0: data[96        : 127       ]: 8         36        64        36        112       222       262       94        112       212       252       92        44        76        88        24        18        86        154       96        282       622       742       324       332       712       832       332       154       326       378       144       

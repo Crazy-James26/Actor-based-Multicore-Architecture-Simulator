@@ -1,0 +1,27 @@
+Timing Report
+--------------------------------------------------------------------------------
+Total_time: 11476210
+
+Compute_period: 
+(5986400, 5986740)
+Compute_time: 340 Compute_utilization: 0.00296265%
+
+Communicate_period: 
+(390, 550)
+(5986230, 5986390)
+(5986800, 5986970)
+Communicate_time: 490 Communicate_utilization: 0.0042697%
+
+merge_period: 
+(390, 550)
+(5986230, 5986390)
+(5986400, 5986740)
+(5986800, 5986970)
+Overlap_time: 0 overlap_utilization: 0%
+Sum_time: 830 Sum_utilization: 0.00723235%
+
+Alloc_rate: 
+(340, 0.78125%)
+(390, 2.34375%)
+(5986750, 0.78125%)
+(5986980, 0%)

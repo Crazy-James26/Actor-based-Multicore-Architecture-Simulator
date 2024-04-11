@@ -1,0 +1,20 @@
+Time 210 ns: icache initialization:
+ins0         : 0f1f08000000018000000000000000000000000
+ins1         : 0f2f26000000058000000260000000c00000000
+ins2         : 0f3f80002000c00040004000000000000000000
+Time 260 ns: starts running!
+Time 280 ns: store_addr: mem_rt000000000 consumer_table: {actor080000000 } out_mode: 0f0
+Time 290 ns: producer_table: {actor080000001 actor080000002 actor080000003 }
+Time 310 ns: mem_alloc_rate: 1.5625%
+Time 320 ns: rte0: new rte! in_alloc_mem_addr: {mem000000000(size: 000000000) mem000000000(size: 000000000) mem000000000(size: 000000000) } out_alloc_mem_addr: mem000000000(size: 000000180) ins_type: 0f8
+Time 320 ns: finishes loading instructions!
+Time 640 ns: rte0: receives req from producer080000001's req! ins_type: 0f8
+Time 640 ns: rte0: receives req from producer080000002's req! ins_type: 0f8
+Time 650 ns: rte0: asks for producer080000001's req! ins_type: 0f8
+Time 650 ns: rte0: asks for producer080000002's req! ins_type: 0f8
+Time 680 ns: rte0: producer080000001 is sending data! ins_type: 0f8
+Time 680 ns: rte0: producer080000002 is sending data! ins_type: 0f8
+Time 740 ns: rte0: receives req from producer080000003's req! ins_type: 0f8
+Time 750 ns: rte0: asks for producer080000003's req! ins_type: 0f8
+Time 780 ns: rte0: producer080000003 is sending data! ins_type: 0f8
+Time 830 ns: rte0: rte is erased! ins_type:0f8

@@ -1,0 +1,27 @@
+Timing Report
+--------------------------------------------------------------------------------
+Total_time: 7462390
+
+Compute_period: 
+(3446370, 3446710)
+Compute_time: 340 Compute_utilization: 0.00455618%
+
+Communicate_period: 
+(390, 550)
+(3446200, 3446360)
+(3446770, 3446940)
+Communicate_time: 490 Communicate_utilization: 0.00656626%
+
+merge_period: 
+(390, 550)
+(3446200, 3446360)
+(3446370, 3446710)
+(3446770, 3446940)
+Overlap_time: 0 overlap_utilization: 0%
+Sum_time: 830 Sum_utilization: 0.0111224%
+
+Alloc_rate: 
+(340, 0.78125%)
+(390, 2.34375%)
+(3446720, 0.78125%)
+(3446950, 0%)

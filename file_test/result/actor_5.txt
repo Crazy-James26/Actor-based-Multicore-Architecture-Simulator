@@ -1,0 +1,29 @@
+Time 210 ns: icache initialization:
+ins0         : 0f1f08000000018000000000000000000000000
+ins1         : 0f2f06000000058000000260000000c00000000
+ins2         : 0f3f10002000200040004000000000000000000
+Time 260 ns: starts running!
+Time 280 ns: store_addr: mem_rt000000000 consumer_table: {actor080000000 } out_mode: 0f0
+Time 290 ns: producer_table: {actor080000001 actor080000002 actor080000003 }
+Time 310 ns: mem_alloc_rate: 6.25%
+Time 320 ns: rte0: new rte! in_alloc_mem_addr: {mem000000000(size: 000000040) mem000000400(size: 000000040) mem000000800(size: 000000040) } out_alloc_mem_addr: mem000000c00(size: 000000040) ins_type: 0f1
+Time 320 ns: finishes loading instructions!
+Time 640 ns: rte0: receives req from producer080000001's req! ins_type: 0f1
+Time 640 ns: rte0: receives req from producer080000002's req! ins_type: 0f1
+Time 650 ns: rte0: asks for producer080000001's req! ins_type: 0f1
+Time 650 ns: rte0: asks for producer080000002's req! ins_type: 0f1
+Time 680 ns: rte0: producer080000001 is sending data! ins_type: 0f1
+Time 680 ns: rte0: producer080000002 is sending data! ins_type: 0f1
+Time 740 ns: rte0: receives req from producer080000003's req! ins_type: 0f1
+Time 750 ns: rte0: asks for producer080000003's req! ins_type: 0f1
+Time 780 ns: rte0: producer080000003 is sending data! ins_type: 0f1
+Time 830 ns: ALU starts compuatation! ins_type: 0f1
+Time 830 ns: current_time:830 ns
+Time 890 ns: ALU completes computation! ins_type: 0f1
+Time 890 ns: current_time:890 ns
+Time 890 ns: in_mem is released: {mem000000000(actor080000001) mem000000400(actor080000002) mem000000800(actor080000003) } ins_type: 0f1
+Time 900 ns: mem_alloc_rate: 1.5625%
+Time 930 ns: consumer actor080000000 ack! ins_type: 0f1
+Time 940 ns: is sending data to {actor080000000 } ins_type: 0f1
+SU_read_pt0: data[0         : 31        ]: 24        108       192       108       336       666       786       282       336       636       756       276       132       228       264       72        54        258       462       288       846       1866      2226      972       996       2136      2496      996       462       978       1134      432       
+SU_read_pt0: data[32        : 63        ]: 24        108       192       108       336       666       786       282       336       636       756       276       132       228       264       72        54        258       462       288       846       1866      2226      972       996       2136      2496      996       462       978       1134      432       

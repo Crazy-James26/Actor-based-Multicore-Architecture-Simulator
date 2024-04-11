@@ -1,0 +1,134 @@
+Time 210 ns: icache initialization:
+ins0         : 0f1f08000000000000000000000000000000000
+ins1         : 0f2f06000000000000000000000000000000000
+ins2         : 0f3f80010001000030003000000000000000000
+ins3         : 0f1f08000000040000000000000000000000000
+ins4         : 0f2f06000000000000000000000000000000000
+ins5         : 0f3f80010001000380038000000000000000000
+ins6         : 0f1f08000000080000000000000000000000000
+ins7         : 0f2f08000000060000000000000000000000000
+ins8         : 0f3f400100010003800030010000100010000f1
+ins9         : 0f1f06000000080000000000000000000000000
+ins10        : 0f2f08000000080000000000000000000000000
+ins11        : 0f3f600100010003800380000000000000000f1
+ins12        : 0f1f08000000140000000000000000000000000
+ins13        : 0f2f06000000000000000000000000000000000
+ins14        : 0f3f80010001000380038000000000000000000
+ins15        : 0f1f08000000180000000000000000000000000
+ins16        : 0f2f08000000170000000000000000000000000
+ins17        : 0f3f400100010003800030010000100010000f1
+ins18        : 0f1f06000000080000000000000000000000000
+ins19        : 0f2f08000000180000000000000000000000000
+ins20        : 0f3f600100010003800380000000000000000f1
+ins21        : 0f1f080000000c0000000000000000000000000
+ins22        : 0f2f060000000b0000000200000000000000000
+ins23        : 0f3f600100010003800380000000000000000f2
+ins24        : 0f1f08000000100000000000000000000000000
+ins25        : 0f2f0c000000070000000300000000000000000
+ins26        : 0f3f400100010003800030010000100010000f3
+ins27        : 0f1f080000001c0000000000000000000000000
+ins28        : 0f2f060000000b0000000600000000000000000
+ins29        : 0f3f600100010003800380000000000000000f2
+ins30        : 0f1f08000000200000000000000000000000000
+ins31        : 0f2f0c000000170000000700000000000000000
+ins32        : 0f3f400100010003800030010000100010000f3
+ins33        : 0f1f06000000000000000000000000000000000
+ins34        : 0f2f0c000000130000000800000000000000000
+ins35        : 0f3f10010001000030003000000000000000000
+Time 590 ns: begins running!
+Time 640 ns: mem_alloc_rate: 0.78125%
+Time 650 ns: rte0: rte is built! ins_type: 248 ins_mode : 0
+Time 660 ns: rte0: receives req from producer080000000's req! ins_type: 0f8 ins_mode: 000
+Time 670 ns: rte0: asks for producer080000000's req! ins_type: 0f8 ins_mode: 000
+Time 690 ns: rte0: producer080000000 starts sending data! ins_type: 0f8 ins_mode: 000
+Time 690 ns: mem_alloc_rate: 10.9375%
+Time 700 ns: rte1: rte is built! ins_type: 248 ins_mode : 0
+Time 740 ns: mem_alloc_rate: 21.0938%
+Time 750 ns: rte2: rte is built! ins_type: 244 ins_mode : 241
+Time 790 ns: mem_alloc_rate: 31.25%
+Time 800 ns: rte3: rte is built! ins_type: 246 ins_mode : 241
+Time 840 ns: mem_alloc_rate: 41.4062%
+Time 850 ns: rte4: rte is built! ins_type: 248 ins_mode : 0
+Time 1410 ns: rte0: producer080000000 finishes sending data! ins_type: 0f8 ins_mode: 000
+Time 1420 ns: rte0: rte is erased! ins_type:0f8 ins_mode: 000
+Time 1420 ns: rte0: receives req from producer080000000's req! ins_type: 0f8 ins_mode: 000
+Time 1430 ns: rte0: asks for producer080000000's req! ins_type: 0f8 ins_mode: 000
+Time 1450 ns: rte0: producer080000000 starts sending data! ins_type: 0f8 ins_mode: 000
+Time 1460 ns: mem_alloc_rate: 51.5625%
+Time 1470 ns: rte4: rte is built! ins_type: 244 ins_mode : 241
+Time 252330 ns: rte0: producer080000000 finishes sending data! ins_type: 0f8 ins_mode: 000
+Time 252340 ns: rte0: rte is erased! ins_type:0f8 ins_mode: 000
+Time 252350 ns: ALU starts compuatation! ins_type: 0f4 ins_mode: 0f1
+Time 252360 ns: rte2: receives req from producer080000000's req! ins_type: 0f8 ins_mode: 000
+Time 252370 ns: rte2: asks for producer080000000's req! ins_type: 0f8 ins_mode: 0f1
+Time 252380 ns: mem_alloc_rate: 61.7188%
+Time 252390 ns: rte2: producer080000000 starts sending data! ins_type: 0f8 ins_mode: 000
+Time 252390 ns: rte4: rte is built! ins_type: 246 ins_mode : 241
+Time 503270 ns: rte2: producer080000000 finishes sending data! ins_type: 0f8 ins_mode: 000
+Time 1883090 ns: ALU finishes computation! ins_type: 0f4 ins_mode: 0f1
+Time 1883090 ns: ALU starts compuatation! ins_type: 0f6 ins_mode: 0f1
+Time 1883100 ns: rte0: rte is erased! ins_type:0f4 ins_mode: 0f1
+Time 1883100 ns: mem_alloc_rate: 61.7188%
+Time 1883140 ns: mem_alloc_rate: 82.0312%
+Time 1883150 ns: rte4: rte is built! ins_type: 246 ins_mode : 242
+Time 2384870 ns: ALU finishes computation! ins_type: 0f6 ins_mode: 0f1
+Time 2384880 ns: ALU starts compuatation! ins_type: 0f4 ins_mode: 0f1
+Time 2384880 ns: mem_alloc_rate: 82.0312%
+Time 2384920 ns: consumer actor080000002 ack! ins_type: 0f6 ins_mode: 0f1
+Time 2384930 ns: starts sending data to consumer{actor080000002 } ins_type: 0f6 ins_mode: 0f1
+Time 2635820 ns: finishes sending data to consumer{actor080000002 } ins_type: 0f6 ins_mode: 0f1
+Time 2635820 ns: rte0: rte is erased! ins_type:0f6 ins_mode: 0f1
+Time 2635830 ns: rte0: rte is erased! ins_type:0f8 ins_mode: 000
+Time 2635830 ns: mem_alloc_rate: 71.875%
+Time 2635860 ns: mem_alloc_rate: 72.6562%
+Time 2635870 ns: rte3: rte is built! ins_type: 244 ins_mode : 243
+Time 4015620 ns: ALU finishes computation! ins_type: 0f4 ins_mode: 0f1
+Time 4015620 ns: ALU starts compuatation! ins_type: 0f6 ins_mode: 0f1
+Time 4015630 ns: rte0: rte is erased! ins_type:0f4 ins_mode: 0f1
+Time 4015630 ns: mem_alloc_rate: 71.875%
+Time 4517400 ns: ALU finishes computation! ins_type: 0f6 ins_mode: 0f1
+Time 4517410 ns: mem_alloc_rate: 71.875%
+Time 4517450 ns: consumer actor080000002 ack! ins_type: 0f6 ins_mode: 0f1
+Time 4517460 ns: starts sending data to consumer{actor080000002 } ins_type: 0f6 ins_mode: 0f1
+Time 4768350 ns: finishes sending data to consumer{actor080000002 } ins_type: 0f6 ins_mode: 0f1
+Time 4768350 ns: rte0: rte is erased! ins_type:0f6 ins_mode: 0f1
+Time 4768360 ns: mem_alloc_rate: 61.7188%
+Time 4768370 ns: mem_alloc_rate: 82.0312%
+Time 4768380 ns: rte2: rte is built! ins_type: 246 ins_mode : 242
+Time 4768420 ns: mem_alloc_rate: 82.8125%
+Time 4768430 ns: rte3: rte is built! ins_type: 244 ins_mode : 243
+Time 4768470 ns: mem_alloc_rate: 83.5938%
+Time 4768480 ns: rte4: rte is built! ins_type: 241 ins_mode : 0
+Time 4768480 ns: completes loading instructions!
+Time 11195500 ns: rte0: receives req from producer080000002's req! ins_type: 0f6 ins_mode: 0f2
+Time 11195510 ns: rte0: asks for producer080000002's req! ins_type: 0f6 ins_mode: 0f2
+Time 11195540 ns: rte0: producer080000002 starts sending data! ins_type: 0f6 ins_mode: 0f2
+Time 11446420 ns: rte0: producer080000002 finishes sending data! ins_type: 0f6 ins_mode: 0f2
+Time 11446430 ns: ALU starts compuatation! ins_type: 0f6 ins_mode: 0f2
+Time 11948210 ns: ALU finishes computation! ins_type: 0f6 ins_mode: 0f2
+Time 11948210 ns: ALU starts compuatation! ins_type: 0f4 ins_mode: 0f3
+Time 11948220 ns: rte0: rte is erased! ins_type:0f6 ins_mode: 0f2
+Time 11948220 ns: mem_alloc_rate: 63.2812%
+Time 13328790 ns: ALU finishes computation! ins_type: 0f4 ins_mode: 0f3
+Time 13328800 ns: rte0: rte is erased! ins_type:0f4 ins_mode: 0f3
+Time 13328800 ns: mem_alloc_rate: 42.9688%
+Time 14083560 ns: rte0: receives req from producer080000002's req! ins_type: 0f6 ins_mode: 0f2
+Time 14083570 ns: rte0: asks for producer080000002's req! ins_type: 0f6 ins_mode: 0f2
+Time 14083600 ns: rte0: producer080000002 starts sending data! ins_type: 0f6 ins_mode: 0f2
+Time 14334480 ns: rte0: producer080000002 finishes sending data! ins_type: 0f6 ins_mode: 0f2
+Time 14334490 ns: ALU starts compuatation! ins_type: 0f6 ins_mode: 0f2
+Time 14836270 ns: ALU finishes computation! ins_type: 0f6 ins_mode: 0f2
+Time 14836270 ns: ALU starts compuatation! ins_type: 0f4 ins_mode: 0f3
+Time 14836280 ns: rte0: rte is erased! ins_type:0f6 ins_mode: 0f2
+Time 14836280 ns: mem_alloc_rate: 22.6562%
+Time 16216850 ns: ALU finishes computation! ins_type: 0f4 ins_mode: 0f3
+Time 16216850 ns: ALU starts compuatation! ins_type: 0f1 ins_mode: 000
+Time 16216860 ns: rte0: rte is erased! ins_type:0f4 ins_mode: 0f3
+Time 16216860 ns: mem_alloc_rate: 2.34375%
+Time 16218310 ns: ALU finishes computation! ins_type: 0f1 ins_mode: 000
+Time 16218320 ns: mem_alloc_rate: 0.78125%
+Time 16218350 ns: consumer actor080000000 ack! ins_type: 0f1 ins_mode: 000
+Time 16218360 ns: starts sending data to consumer{actor080000000 } ins_type: 0f1 ins_mode: 000
+Time 16219090 ns: finishes sending data to consumer{actor080000000 } ins_type: 0f1 ins_mode: 000
+Time 16219090 ns: rte0: rte is erased! ins_type:0f1 ins_mode: 000
+Time 16219100 ns: mem_alloc_rate: 0%

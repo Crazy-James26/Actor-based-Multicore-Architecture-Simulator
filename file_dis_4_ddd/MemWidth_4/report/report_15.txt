@@ -1,0 +1,27 @@
+Timing Report
+--------------------------------------------------------------------------------
+Total_time: 6709490
+
+Compute_period: 
+(3132640, 3132980)
+Compute_time: 340 Compute_utilization: 0.00506745%
+
+Communicate_period: 
+(390, 550)
+(3132470, 3132630)
+(3133040, 3133210)
+Communicate_time: 490 Communicate_utilization: 0.00730309%
+
+merge_period: 
+(390, 550)
+(3132470, 3132630)
+(3132640, 3132980)
+(3133040, 3133210)
+Overlap_time: 0 overlap_utilization: 0%
+Sum_time: 830 Sum_utilization: 0.0123705%
+
+Alloc_rate: 
+(340, 0.78125%)
+(390, 2.34375%)
+(3132990, 0.78125%)
+(3133220, 0%)

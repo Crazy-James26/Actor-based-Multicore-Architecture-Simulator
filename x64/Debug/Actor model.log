@@ -1,0 +1,86 @@
+﻿  producer_table.h
+C:\Users\new\Desktop\Actor model 4\basic.h(42,21): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“uint32_t”，可能丢失数据
+  testbench.cpp
+C:\Users\new\Desktop\Actor model 4\basic.h(42,21): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“uint32_t”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\sub_host.h(116,17): warning C4456: “m”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(99,14): message : 参见“m”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(123,17): warning C4456: “m”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(99,14): message : 参见“m”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(138,11): warning C4456: “wait_cycle”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(49,7): message : 参见“wait_cycle”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(166,17): warning C4456: “m”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(99,14): message : 参见“m”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(180,17): warning C4456: “m”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(99,14): message : 参见“m”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(201,18): warning C4456: “m”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(99,14): message : 参见“m”的声明
+C:\Users\new\Desktop\Actor model 4\sub_host.h(251,75): warning C4239: 使用了非标准扩展:“参数”: 从“sc_dt::sc_uint<32>”转换到“sc_dt::sc_uint<32> &”
+C:\Users\new\Desktop\Actor model 4\sub_host.h(251,75): message : 非常量引用只能绑定到左值
+C:\Users\new\Desktop\Actor model 4\reservation_table.h(123,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\reservation_table.h(142,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\SU.h(416,22): warning C4245: “=”: 从“int”转换到“unsigned int”，有符号/无符号不匹配
+C:\Users\new\Desktop\Actor model 4\SU.h(504,165): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\SU.h(511,68): warning C4239: 使用了非标准扩展:“参数”: 从“sc_dt::sc_uint<32>”转换到“sc_dt::sc_uint<32> &”
+C:\Users\new\Desktop\Actor model 4\SU.h(511,68): message : 非常量引用只能绑定到左值
+C:\Users\new\Desktop\Actor model 4\SU.h(521,28): warning C4245: “=”: 从“int”转换到“unsigned int”，有符号/无符号不匹配
+C:\Users\new\Desktop\Actor model 4\SU.h(776,129): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\Memory_Manager.h(52,37): warning C4244: “=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\Memory_Manager.h(86,55): warning C4244: “=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\Memory_Manager.h(133,24): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\Memory_Manager.h(145,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(203,57): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(278,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(304,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(305,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(342,56): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(343,57): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(355,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(375,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(376,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(378,28): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(379,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(430,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(450,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(451,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(453,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(507,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(531,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(532,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(551,55): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(552,56): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(569,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(588,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(589,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(621,55): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(622,56): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(626,47): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(626,68): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(627,28): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(628,28): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(632,17): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(632,38): warning C4244: “参数”: 从“float”转换到“const unsigned __int64”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(637,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(657,26): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(658,23): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(679,55): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(680,56): warning C4244: “+=”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(690,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(849,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(908,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\ALU.h(966,27): warning C4244: “初始化”: 从“sc_dt::uint_type”转换到“unsigned int”，可能丢失数据
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(104,13): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(75,11): message : 参见“i”的声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(111,13): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(75,11): message : 参见“i”的声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(118,13): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(75,11): message : 参见“i”的声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(129,12): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(75,11): message : 参见“i”的声明
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(8,29): warning C4100: “argv”: 未引用的形参
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(8,17): warning C4100: “argc”: 未引用的形参
+  正在生成代码...
+C:\Users\new\Desktop\Actor model 4\testbench.cpp(101): warning C4701: 使用了可能未初始化的局部变量“batch_time”
+C:\Users\new\Desktop\Actor model 4\result_analysis.h(105): warning C4701: 使用了可能未初始化的局部变量“begin_time”
+C:\Users\new\Desktop\Actor model 4\result_analysis.h(209): warning C4701: 使用了可能未初始化的局部变量“begin_pt”
+C:\Users\new\Desktop\Actor model 4\result_analysis.h(208): warning C4701: 使用了可能未初始化的局部变量“end_pt”
+  Actor model.vcxproj -> C:\Users\new\Desktop\Actor model 4\x64\Debug\Actor model.exe
