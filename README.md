@@ -1,6 +1,6 @@
 # Actor-based-Multicore-Architecture-Simulator
 
-It's a functional and timing hardware simulator based on SystemC, used to evaluate our actor-based multicore architecture.
+This is a functional and timing hardware simulator based on SystemC, used to evaluate our actor-based multicore architecture.
 
 Here is a brief introduction of our architecture:
 
